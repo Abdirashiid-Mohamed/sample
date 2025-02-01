@@ -1,0 +1,178 @@
+ body {
+            background-color: #0F112B;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #0F112B; 
+            position: relative;
+        }
+        .btn-accident {
+            background-color: #AA54A0;
+            color: white;
+            border: none;
+            padding: 20px 30px;
+            border-radius: 20px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        .btn-accident:hover {
+            background-color: #902A8A;
+        }
+        .dropdown-menu-custom {
+            position: absolute;
+            top: 70px; 
+            left: -200px;
+            display: none;
+            background-color: #25245F;
+            color: white;
+            border-radius: 5px;
+            padding: 10px 20px;
+            width: 200px;
+            z-index: 999;
+        }
+        .dropdown-menu-custom a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 0;
+            display: block;
+        }
+        .dropdown-menu-custom a:hover {
+            background-color: #AA54A0;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            color: #AA54A0;
+        }
+        .btn-outline {
+            background-color: transparent;
+            color: white;
+            border: 2px solid #AA54A0;
+            padding: 20px 30px;
+            border-radius: 20px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        .btn-outline.active {
+            background-color: #AA54A0;
+            color: white;
+        }
+        .btn-outline:hover {
+            background-color: #AA54A0;
+            color: white;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            margin: 50px 0;
+        }
+        .content-text {
+            max-width: 50%;
+        }
+        .content-text h2 {
+            font-size: 2.5rem;
+        }
+        .content-text p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+        .code-image {
+            max-width: 35%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .brown-color {
+            color: #6f4f37; 
+        }
+        .accident-color {
+            color: #AA54A0; 
+        }
+
+        /* Card Styles */
+        .card {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+            width: 100%;
+            max-width: 250px; 
+            text-align: center;
+            color: white;
+            margin: 0 auto;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: 180px; 
+            object-fit: cover;
+            border-bottom: 2px solid #fff;
+        }
+        .card-body {
+            padding: 15px;
+        }
+        .card-title {
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .card-text {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        /* Color Changes for Cards */
+        .card1 {
+            background-color: #3D3C6B; 
+        }
+
+        .card2 {
+            background-color: #AA54A0; /* Accident color */
+        }
+
+        .card3 {
+            background-color: #25245F; /* Dark Blue */
+        }
+
+        .card4 {
+            background-color: #902A8A; /* Lighter Purple */
+        }
+
+        .cards-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 50px;
+        }
+
+        .footer {
+            background-color: #25245F;
+            color: white;
+            padding: 10px 0; 
+            text-align: center;
+            margin-top: 30px; 
+        }
+
+        .footer h4 {
+            font-size: 1.5rem; 
+            margin-bottom: 10px; 
+        }
+
+        .footer-icons {
+            margin: 10px 0; 
+        }
+
+        .footer-icons a {
+            color: white;
+            font-size: 1.5rem; 
+            margin: 0 10px; 
+            text-decoration: none;
+        }
+
+        .footer-icons a:hover {
+            color: #AA54A0;
+        }
